@@ -3,7 +3,7 @@ layout: post
 title: Big Data Key Overview
 ---
 
-What is meant by 'Big Data'? Well in it's simplest and loose form it's data that is unstructured and flat (i.e. not normalised in the traditional RDBMS sense), very large1 in volume and difficult to manage and analyse using traditional RDBMS tools.
+What is meant by 'Big Data'? Well in it's simplest and loose form it's data that is unstructured and flat (i.e. not normalised in the traditional RDBMS sense), very large<sup>1</sup> in volume and difficult to manage and analyse using traditional RDBMS tools.
 *In essence 'Big Data' is a solution space, packed with many dimpled spheres of untapped analytical data patterns.* The task is to detect the patterns and attempt to predict future repeat cycles or indeed force/dampen the features or patterns by optimising the competing parameters. 
 
 Examples of such data sets can be found in many different areas and disciplines, e.g. 
@@ -32,6 +32,6 @@ In future posts we'll look at the modern tool set geared towards analysing such 
 
 1. Note that data set size will always remain a relative and changing parameter, based on context, processing power and requirements. What seems large today may seem small in comparison in the future. 
 
-### References:
+### *References:*
 
 1. [Wikipedia - Big Data](http://en.wikipedia.org/wiki/Big_data)
