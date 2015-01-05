@@ -12,7 +12,7 @@ Some steps to take prior to installing a Big Data stack on Mac OS X
 1. Check Java Installation
  Open up a Terminal session and check that Java version 1.6.* is installed.
 
-```shell
+```bash
 $ java -version
 java version "1.6.0_65"
 Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
@@ -27,19 +27,19 @@ Installing Homebrew is not a mandatory step; you can download the software compo
 3. Secure Shell SSH Setup
 SSH will be used to secure the connection to your Mac. Firstly enable Remote Login under System Preferences / Sharing; you might choose to enable remote login for a specific user account(s) only so as to avoid opening up your Mac to unknown attacks, in which case choose the account to allow access for, again under Preferences / Sharing. Now we need to set-up the private and public keys for SSH to function. At the Terminal command prompt from your $HOME directory enter:
 
-```cmd
+```bash
 $ ssh-keygen -t rsa -P ""  
 ```
 
 Accept the default storage path offered at the prompt1. Now we need to copy (cat) the public key to the $HOME/.ssh/authorized_keys file2. 
 
-```cmd
+```bash
 $ cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 ```
 
 Test the secure shell connection using
 
-```cmd
+```bash
 $ ssh localhost
 ```
 
