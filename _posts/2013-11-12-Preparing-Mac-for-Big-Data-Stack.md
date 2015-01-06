@@ -12,7 +12,7 @@ Some steps to take prior to installing a Big Data stack on Mac OS X
 1. Check Java Installation
  Open up a Terminal session and check that Java version 1.6.* is installed.
 
-```bash
+```javascript
 $ java -version
 java version "1.6.0_65"
 Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
